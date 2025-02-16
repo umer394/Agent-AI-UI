@@ -38,7 +38,7 @@ const Features = () => {
   useEffect(() => {
     setAnimate(true);
   }, []);
-
+  console.log(animate)
   // Graph Data
   const data = {
     labels: ["Autonomous AI", "Multi-Modal AI", "Integration", "Security"],
